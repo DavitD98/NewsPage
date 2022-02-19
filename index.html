@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>News Page</title>
+</head>
+<body>
+
+    <div class="container">
+    <header> 
+        <div>
+         <img src="./image/star news.png" alt="">
+        </div>
+        <input id="searchWord" type="search" placeholder="search the word" oninput="mark(this)" >
+
+        <div>
+            <i class="fas fa-search"></i>
+            <input id="search" type="search" placeholder="search" onclick="showSearch()" oninput="searchShow()">
+           <div id="searchResult">   
+        </div>
+    </header>
+</div>
+
+
+<div class="container">
+    <h1>News</h1>
+    <div id="items">
+
+    </div>
+</div>
+
+
+       <script src="js/script.js"></script>
+    
+</body>
+</html>
